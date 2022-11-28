@@ -1,0 +1,49 @@
+{
+  "name": "svelte-app",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-netlify": "^1.0.0-next.45",
+    "@sveltejs/kit": "next",
+    "@sveltejs/svelte-virtual-list": "^3.0.1",
+    "@types/cookie": "^0.4.1",
+    "autoprefixer": "^10.4.2",
+    "axios": "^0.27.2",
+    "ethers-multicall": "^0.2.3",
+    "postcss": "^8.4.6",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.0",
+    "svelte": "^3.46.0",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.10.1",
+    "tailwindcss": "^3.0.22",
+    "tslib": "^2.3.1",
+    "typescript": "~4.5.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource/fira-mono": "^4.5.0",
+    "@lukeed/uuid": "^2.0.0",
+    "@premia/utils": "^0.0.4",
+    "@worldcoin/id": "^0.0.2",
+    "bignumber.js": "^9.0.2",
+    "cookie": "^0.4.1",
+    "ethers": "^5.5.4",
+    "express": "^4.18.1",
+    "mime": "^3.0.0",
+    "mongoose": "^6.3.1",
+    "svelte-confetti-explosion": "^0.2.0",
+    "web3modal": "^1.9.5"
+  }
+}
