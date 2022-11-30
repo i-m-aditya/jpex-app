@@ -3,3 +3,5 @@ build
 .svelte-kit
 
 db.ts
+src/lib/web3/cryptokitties.ts
+src/lib/web3/strikes.ts
